@@ -2,11 +2,11 @@
 
 A curated, daily-updated list of research papers on AI agent security, grouped by topic. Each entry links to the paper, and `[Analysis]` links to our write-up of it (in Chinese).
 
-35 papers so far.
+36 papers so far.
 
 ## Contents
 
-- [Benchmarks](#benchmarks) (4)
+- [Benchmarks](#benchmarks) (5)
 - [Agent Skills and Plugin Ecosystems](#agent-skills-and-plugin-ecosystems) (11)
 - [MCP and Tool Chains](#mcp-and-tool-chains) (6)
 - [Prompt Injection, Guardrails, and Permissions](#prompt-injection-guardrails-and-permissions) (3)
@@ -20,6 +20,7 @@ Benchmarks and datasets for evaluating agent security.
 - **PriMobiBench**: [PriMobiBench: Characterizing Visual Privacy Leakage in VLM-Driven Mobile GUI Agents](https://arxiv.org/abs/2609.13873). Qihang Cen, Tianshuo Cong, Da Song, et al. *ACM CCS 2026*. [[Analysis]](https://github.com/lxyeternal/paper-to-wechat/blob/main/papers/2026-11-primobibench/article.md)
 - **SkillVetBench**: [Benchmarking Security Risk Detection and Verification in Open Agentic Skill Ecosystems](https://arxiv.org/abs/2606.00925). Ismail Hossain, Sai Puppala, Zhuoran Lu, et al. *arXiv 2026*. [[Analysis]](https://github.com/lxyeternal/paper-to-wechat/blob/main/papers/2026-08-skillvetbench/article.md)
 - **SkillSafetyBench**: [SkillSafetyBench: Evaluating Agent Safety under Skill-Facing Attack Surfaces](https://arxiv.org/abs/2605.12015). Chang Jin, An Wang, Zeming Wei, et al. *arXiv 2026*. [[Analysis]](https://github.com/lxyeternal/paper-to-wechat/blob/main/papers/2026-08-skillsafetybench/article.md)
+- **MalSkillBench**: [MalSkillBench: A Runtime-Verified Benchmark of Malicious Agent Skills](https://arxiv.org/abs/2606.07131). Wenbo Guo, Wei Zeng, Chengwei Liu, et al. *arXiv 2026*. [[Analysis]](https://github.com/lxyeternal/paper-to-wechat/blob/main/papers/2026-08-malskillbench/article.md)
 - **HarmfulSkillBench**: [HarmfulSkillBench: How Do Harmful Skills Weaponize Your Agents?](https://arxiv.org/abs/2604.15415). Yukun Jiang, Yage Zhang, Michael Backes, et al. *arXiv 2026*. [[Analysis]](https://github.com/lxyeternal/paper-to-wechat/blob/main/papers/2026-08-harmfulskillbench/article.md)
 
 ## Agent Skills and Plugin Ecosystems
