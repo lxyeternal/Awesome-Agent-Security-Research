@@ -3,8 +3,8 @@
 <p align="center">A curated, daily-updated list of research papers on the security of AI agents.</p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/papers-65-2da44e" alt="papers">
-<img src="https://img.shields.io/badge/peer--reviewed-44-d1242f" alt="peer-reviewed">
+<img src="https://img.shields.io/badge/papers-83-2da44e" alt="papers">
+<img src="https://img.shields.io/badge/peer--reviewed-63-d1242f" alt="peer-reviewed">
 <img src="https://img.shields.io/badge/benchmarks-5-8250df" alt="benchmarks">
 <img src="https://img.shields.io/badge/years-2024--2027-0969da" alt="years">
 </p>
@@ -28,10 +28,10 @@ Every entry starts with a badge that shows **where and when** the paper appeared
 |---|---|---|
 | [Benchmarks](#benchmarks) | 5 | Benchmarks and datasets for evaluating agent security. |
 | [Agent Skills and Plugin Ecosystems](#agent-skills-and-plugin-ecosystems) | 11 | Malicious, vulnerable, and harmful agent skills; skill marketplaces; skill vetting and least privilege. |
-| [MCP and Tool Chains](#mcp-and-tool-chains) | 8 | Attacks and analyses on MCP servers, tool pools, third-party plugins, and agent dependencies. |
-| [Agent Applications and Frameworks](#agent-applications-and-frameworks) | 11 | Vulnerabilities in agent and LLM-integrated applications, agent frameworks, LLM app stores, and multi-agent systems. |
-| [Prompt Injection, Guardrails, and Permissions](#prompt-injection-guardrails-and-permissions) | 16 | Prompt injection attacks and defenses, runtime guardrails, isolation architectures, and permission models. |
-| [Agents on the Web and Privacy](#agents-on-the-web-and-privacy) | 9 | Web and mobile agents, agents misused as attackers, detecting and deterring agents, content manipulation, and privacy leakage. |
+| [MCP and Tool Chains](#mcp-and-tool-chains) | 10 | Attacks and analyses on MCP servers, tool pools, third-party plugins, and agent dependencies. |
+| [Agent Applications and Frameworks](#agent-applications-and-frameworks) | 17 | Vulnerabilities in agent and LLM-integrated applications, agent frameworks, LLM app stores, and multi-agent systems. |
+| [Prompt Injection, Guardrails, and Permissions](#prompt-injection-guardrails-and-permissions) | 24 | Prompt injection attacks and defenses, runtime guardrails, isolation architectures, and permission models. |
+| [Agents on the Web and Privacy](#agents-on-the-web-and-privacy) | 11 | Web and mobile agents, agents misused as attackers, detecting and deterring agents, content manipulation, and privacy leakage. |
 | [Surveys and SoKs](#surveys-and-soks) | 5 | Surveys, systematizations, and literature reviews of agent security. |
 
 ## Benchmarks
@@ -54,10 +54,10 @@ Every entry starts with a badge that shows **where and when** the paper appeared
 
 ### 2026
 
+- ![ASE 2026](https://img.shields.io/badge/ASE-2026-24292f?labelColor=0969da&style=flat-square) **["Elementary, My Dear Watson." Detecting Malicious Skills via Neuro-Symbolic Reasoning across Heterogeneous Artifacts](https://arxiv.org/abs/2603.27204)**<br><sub>Shenao Wang, Junjie He, Yanjie Zhao, et al. &nbsp;·&nbsp; [Analysis](https://github.com/lxyeternal/paper-to-wechat/blob/main/papers/2026-08-malskills-neurosymbolic/article.md)</sub>
 - ![ASE 2026](https://img.shields.io/badge/ASE-2026-24292f?labelColor=0969da&style=flat-square) **[How Your Credentials Are Leaked by LLM Agent Skills: An Empirical Study](https://arxiv.org/abs/2604.03070)**<br><sub>Zhihao Chen, Ying Zhang, Yi Liu, et al. &nbsp;·&nbsp; [Analysis](https://github.com/lxyeternal/paper-to-wechat/blob/main/papers/2026-08-skill-credential-leak/article.md)</sub>
 - ![CCS 2026](https://img.shields.io/badge/CCS-2026-24292f?labelColor=d1242f&style=flat-square) **[SkillScope: Toward Fine-Grained Least-Privilege Enforcement for Agent Skills](https://arxiv.org/abs/2605.05868)**<br><sub>Jiangrong Wu, Yuhong Nan, Yixi Lin, et al. &nbsp;·&nbsp; [Analysis](https://github.com/lxyeternal/paper-to-wechat/blob/main/papers/2026-10-skillscope/article.md)</sub>
 - ![USENIX Security 2026](https://img.shields.io/badge/USENIX%20Security-2026-24292f?labelColor=d1242f&style=flat-square) **["Do Not Mention This to the User": Detecting and Understanding Malicious Agent Skills in the Wild](https://arxiv.org/abs/2602.06547)**<br><sub>Yi Liu, Zhihao Chen, Yanjun Zhang, et al. &nbsp;·&nbsp; [Analysis](https://github.com/lxyeternal/paper-to-wechat/blob/main/papers/2026-08-malicious-skills-wild/article.md)</sub>
-- ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-24292f?labelColor=8b949e&style=flat-square) **["Elementary, My Dear Watson." Detecting Malicious Skills via Neuro-Symbolic Reasoning across Heterogeneous Artifacts](https://arxiv.org/abs/2603.27204)**<br><sub>Shenao Wang, Junjie He, Yanjie Zhao, et al. &nbsp;·&nbsp; [Analysis](https://github.com/lxyeternal/paper-to-wechat/blob/main/papers/2026-08-malskills-neurosymbolic/article.md)</sub>
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-24292f?labelColor=8b949e&style=flat-square) **[A Comprehensive Survey on Agent Skills: Taxonomy, Techniques, and Applications](https://arxiv.org/abs/2605.07358)**<br><sub>Yingli Zhou, Wang Shu, Yaodong Su, et al. &nbsp;·&nbsp; [Analysis](https://github.com/lxyeternal/paper-to-wechat/blob/main/papers/2026-08-agent-skills-survey/article.md)</sub>
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-24292f?labelColor=8b949e&style=flat-square) **[Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities at Scale](https://arxiv.org/abs/2601.10338)**<br><sub>Yi Liu, Weizhe Wang, Ruitao Feng, et al. &nbsp;·&nbsp; [Analysis](https://github.com/lxyeternal/paper-to-wechat/blob/main/papers/2026-08-skills-wild-vulns/article.md)</sub>
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-24292f?labelColor=8b949e&style=flat-square) **[ColluSkill: Adversarial Cross-Skill Composition for Evading Agent Skill Scanners](https://arxiv.org/abs/2608.09732)**<br><sub>Puyu Zeng, Simeng Qin, Jingzhi Li, et al. &nbsp;·&nbsp; [Analysis](https://github.com/lxyeternal/paper-to-wechat/blob/main/papers/2026-08-colluskill/article.md)</sub>
@@ -77,6 +77,8 @@ Every entry starts with a badge that shows **where and when** the paper appeared
 
 ### 2026
 
+- ![CCS 2026](https://img.shields.io/badge/CCS-2026-24292f?labelColor=d1242f&style=flat-square) **[ContractGuard: Auditing Semantic Contracts of MCP Tools for Security Violations](https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html)**<br><sub>Hengkai Ye, Zhechang Zhang, Ruibo Lu, et al.</sub>
+- ![CCS 2026](https://img.shields.io/badge/CCS-2026-24292f?labelColor=d1242f&style=flat-square) **[MetaMancer: Practical Tool Selection Attacks against LLM Agents](https://doi.org/10.1145/3830454.3846793)**<br><sub>Wenbin Zhai, Yihao Liu, Dong Wang, et al.</sub>
 - ![FSE 2026](https://img.shields.io/badge/FSE-2026-24292f?labelColor=0969da&style=flat-square) **[AgentBound: Securing Execution Boundaries of AI Agents](https://doi.org/10.1145/3808103)**<br><sub>Christoph Bühler, Matteo Biagiola, Luca Di Grazia, et al.</sub>
 - ![NDSS 2026](https://img.shields.io/badge/NDSS-2026-24292f?labelColor=d1242f&style=flat-square) **[Les Dissonances: Cross-Tool Harvesting and Polluting in Pool-of-Tools Empowered LLM Agents](https://arxiv.org/abs/2504.03111)**<br><sub>Zichuan Li, Jian Cui, Xiaojing Liao, et al. &nbsp;·&nbsp; [Analysis](https://github.com/lxyeternal/paper-to-wechat/blob/main/papers/2026-09-les-dissonances/article.md)</sub>
 - ![NDSS 2026](https://img.shields.io/badge/NDSS-2026-24292f?labelColor=d1242f&style=flat-square) **[Prompt Injection Attack to Tool Selection in LLM Agents](https://doi.org/10.14722/ndss.2026.230675)**<br><sub>Jiawen Shi, Zenghui Yuan, Guiyao Tie, et al.</sub>
@@ -94,6 +96,12 @@ Every entry starts with a badge that shows **where and when** the paper appeared
 
 ### 2026
 
+- ![ASE 2026](https://img.shields.io/badge/ASE-2026-24292f?labelColor=0969da&style=flat-square) **[What Breaks When LLMs Code? Characterizing Operational Safety Failures of Agentic Code Assistants](https://arxiv.org/abs/2605.30777)**<br><sub>Alif Al Hasan, Sumon Biswas</sub>
+- ![ASE 2026](https://img.shields.io/badge/ASE-2026-24292f?labelColor=0969da&style=flat-square) **[When Compression Becomes an Attack Surface: Black-Box Attacks on Prompt-Compressed LLM Agents](https://arxiv.org/abs/2510.22963)**<br><sub>Zesen Liu, Zhixiang Zhang, Yuchong Xie, et al.</sub>
+- ![CCS 2026](https://img.shields.io/badge/CCS-2026-24292f?labelColor=d1242f&style=flat-square) **[Comment and Control: Hijacking Agentic Workflows via Context-Grounded Evolution](https://arxiv.org/abs/2605.11229)**<br><sub>Neil Fendley, Zhengyu Liu, Aonan Guan, et al.</sub>
+- ![CCS 2026](https://img.shields.io/badge/CCS-2026-24292f?labelColor=d1242f&style=flat-square) **[Janus: Characterizing Bidirectional Privacy and Security Risks in LLM-Integrated Android Apps](https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html)**<br><sub>Jiawei Guo, Zongze Li, Haipeng Cai</sub>
+- ![CCS 2026](https://img.shields.io/badge/CCS-2026-24292f?labelColor=d1242f&style=flat-square) **[MemPoison: Bypassing Selective Memory Mechanisms to Plant Backdoors in LLM Agents](https://arxiv.org/abs/2605.29960)**<br><sub>Hongtao Wang, Se Yang, Yu Chen, et al.</sub>
+- ![ICSE 2026](https://img.shields.io/badge/ICSE-2026-24292f?labelColor=0969da&style=flat-square) **[TaintP2X: Detecting Taint-Style Prompt-to-Anything Injection Vulnerabilities in LLM-Integrated Applications](https://conf.researchr.org/track/icse-2026/icse-2026-research-track#event-overview)**<br><sub>Junjie He, Shenao Wang, Yanjie Zhao, et al.</sub>
 - ![NDSS 2026](https://img.shields.io/badge/NDSS-2026-24292f?labelColor=d1242f&style=flat-square) **[Beyond Jailbreak: Unveiling Risks in LLM Applications Arising from Blurred Capability Boundaries](https://doi.org/10.14722/ndss.2026.242941)**<br><sub>Yunyi Zhang, Shibo Cui, Baojun Liu, et al.</sub>
 - ![S&P 2026](https://img.shields.io/badge/S%26P-2026-24292f?labelColor=d1242f&style=flat-square) **[LLMThief: Evaluating Configuration Leaking Risks in Commercial LLM App Stores](https://doi.org/10.1109/sp63933.2026.00195)**<br><sub>Pinji Chen, Jinlong Jiang, Jianjun Chen, et al.</sub>
 - ![USENIX Security 2026](https://img.shields.io/badge/USENIX%20Security-2026-24292f?labelColor=d1242f&style=flat-square) **[Autonomy Comes with Costs: Detecting Denial-of-Service Vulnerabilities Caused by Resource Abusing in LLM-based Agents](https://www.usenix.org/conference/usenixsecurity26/presentation/luo)**<br><sub>Jiaqi Luo, Jiarun Dai, Fengyu Liu, et al.</sub>
@@ -120,6 +128,14 @@ Every entry starts with a badge that shows **where and when** the paper appeared
 
 ### 2026
 
+- ![ASE 2026](https://img.shields.io/badge/ASE-2026-24292f?labelColor=0969da&style=flat-square) **[ProbGuard: Proactive Runtime Monitoring for LLM Agent Safety via Probabilistic Prediction](https://arxiv.org/abs/2508.00500)**<br><sub>Haoyu Wang, Chris Poskitt, Jiali Wei, et al.</sub>
+- ![ASE 2026](https://img.shields.io/badge/ASE-2026-24292f?labelColor=0969da&style=flat-square) **[Safeguarding LLM Agents from Misalignment through Provenance Analysis](https://arxiv.org/abs/2607.01236)**<br><sub>Yining She, Yiliang Liang, Eunsuk Kang</sub>
+- ![CCS 2026](https://img.shields.io/badge/CCS-2026-24292f?labelColor=d1242f&style=flat-square) **[DRIP: Defending Prompt Injection via Token-wise Representation Editing and Residual Fusion](https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html)**<br><sub>Ruofan Liu, Yun Lin, Zhiyong Huang, et al.</sub>
+- ![CCS 2026](https://img.shields.io/badge/CCS-2026-24292f?labelColor=d1242f&style=flat-square) **[Governing AI Agent with Capability and Delegation Chain](https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html)**<br><sub>Jiaqin Yan, Guoxing Chen, Yan Meng, et al.</sub>
+- ![CCS 2026](https://img.shields.io/badge/CCS-2026-24292f?labelColor=d1242f&style=flat-square) **[LocalAlign: Enabling Generalizable Prompt Injection Defense via Generation of Near-Target Adversarial Examples for Alignment Training](https://arxiv.org/abs/2605.01462)**<br><sub>Yuyang Gong, Zihao Wang, Jiawei Liu, et al.</sub>
+- ![CCS 2026](https://img.shields.io/badge/CCS-2026-24292f?labelColor=d1242f&style=flat-square) **[MirrorGuard: Toward Secure Computer-Use Agents via Simulation-to-Real Reasoning Correction](https://arxiv.org/abs/2601.12822)**<br><sub>Wenqi Zhang, Yulin Shen, Changyue Jiang, et al.</sub>
+- ![CCS 2026](https://img.shields.io/badge/CCS-2026-24292f?labelColor=d1242f&style=flat-square) **[Safeguarding LLM Agents against Long-Horizon Threats via Shadow Memory](https://arxiv.org/abs/2605.03228)**<br><sub>Yuhui Wang, Tanqiu Jiang, Jiacheng Liang, et al.</sub>
+- ![ICSE 2026](https://img.shields.io/badge/ICSE-2026-24292f?labelColor=0969da&style=flat-square) **[AgentSpec: Customizable Runtime Enforcement for Safe and Reliable LLM Agents](https://arxiv.org/abs/2503.18666)**<br><sub>Haoyu Wang, Chris Poskitt, Jun Sun</sub>
 - ![NDSS 2026](https://img.shields.io/badge/NDSS-2026-24292f?labelColor=d1242f&style=flat-square) **[ACE: A Security Architecture for LLM-Integrated App Systems](https://doi.org/10.14722/ndss.2026.230352)**<br><sub>Enlai Li, Tushin Mallick, Evan Rose, et al.</sub>
 - ![NDSS 2026](https://img.shields.io/badge/NDSS-2026-24292f?labelColor=d1242f&style=flat-square) **[Attention is All You Need to Defend Against Indirect Prompt Injection Attacks in LLMs](https://doi.org/10.14722/ndss.2026.240394)**<br><sub>Yinan Zhong, Qianhao Miao, Yanjiao Chen, et al.</sub>
 - ![NDSS 2026](https://img.shields.io/badge/NDSS-2026-24292f?labelColor=d1242f&style=flat-square) **[ObliInjection: Order-Oblivious Prompt Injection Attack to LLM Agents with Multi-source Data](https://doi.org/10.14722/ndss.2026.240702)**<br><sub>Reachal Wang, Yuqi Jia, Neil Zhenqiang Gong</sub>
@@ -155,6 +171,8 @@ Every entry starts with a badge that shows **where and when** the paper appeared
 
 ### 2026
 
+- ![CCS 2026](https://img.shields.io/badge/CCS-2026-24292f?labelColor=d1242f&style=flat-square) **[A Large-scale Measurement of In-Page Prompt Injections Against LLM Web Agents](https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html)**<br><sub>Soheil Khodayari, Xuenan Zhang, Bhupendra Acharya, et al.</sub>
+- ![CCS 2026](https://img.shields.io/badge/CCS-2026-24292f?labelColor=d1242f&style=flat-square) **[Mind the Gap: Action Rebinding Attacks against Android GUI Agents](https://arxiv.org/abs/2601.12349)**<br><sub>Yi Qian, Kunwei Qian, Xingbang He, et al.</sub>
 - ![S&P 2026](https://img.shields.io/badge/S%26P-2026-24292f?labelColor=d1242f&style=flat-square) **[Investigating the Impact of Dark Patterns on LLM-Based Web Agents](https://doi.org/10.1109/sp63933.2026.00042)**<br><sub>Devin Ersoy, Brandon Lee, Ananth Shreekumar, et al.</sub>
 - ![S&P 2026](https://img.shields.io/badge/S%26P-2026-24292f?labelColor=d1242f&style=flat-square) **[WebCloak: Characterizing and Mitigating Threats From LLM-Driven Web Agents as Intelligent Scrapers](https://doi.org/10.1109/sp63933.2026.00025)**<br><sub>Xinfeng Li, Tianze Qiu, Yingbin Jin, et al.</sub>
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-24292f?labelColor=8b949e&style=flat-square) **[GEOHunter: Mapping a Generative Engine Optimization Network in the Wild](https://arxiv.org/abs/2611.26564)**<br><sub>Sean Tang, Peiran Wang, Ying Li, et al. &nbsp;·&nbsp; [Analysis](https://github.com/lxyeternal/paper-to-wechat/blob/main/papers/2026-11-geohunter/article.md)</sub>
