@@ -3,7 +3,7 @@
 <p align="center">A curated, daily-updated list of research papers on the security of AI agents.</p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/papers-83-2da44e" alt="papers">
+<img src="https://img.shields.io/badge/papers-84-2da44e" alt="papers">
 <img src="https://img.shields.io/badge/peer--reviewed-63-d1242f" alt="peer-reviewed">
 <img src="https://img.shields.io/badge/benchmarks-5-8250df" alt="benchmarks">
 <img src="https://img.shields.io/badge/years-2024--2027-0969da" alt="years">
@@ -29,7 +29,7 @@ Every entry starts with a badge that shows **where and when** the paper appeared
 | [Benchmarks](#benchmarks) | 5 | Benchmarks and datasets for evaluating agent security. |
 | [Agent Skills and Plugin Ecosystems](#agent-skills-and-plugin-ecosystems) | 11 | Malicious, vulnerable, and harmful agent skills; skill marketplaces; skill vetting and least privilege. |
 | [MCP and Tool Chains](#mcp-and-tool-chains) | 10 | Attacks and analyses on MCP servers, tool pools, third-party plugins, and agent dependencies. |
-| [Agent Applications and Frameworks](#agent-applications-and-frameworks) | 17 | Vulnerabilities in agent and LLM-integrated applications, agent frameworks, LLM app stores, and multi-agent systems. |
+| [Agent Applications and Frameworks](#agent-applications-and-frameworks) | 18 | Vulnerabilities in agent and LLM-integrated applications, agent frameworks, LLM app stores, and multi-agent systems. |
 | [Prompt Injection, Guardrails, and Permissions](#prompt-injection-guardrails-and-permissions) | 24 | Prompt injection attacks and defenses, runtime guardrails, isolation architectures, and permission models. |
 | [Agents on the Web and Privacy](#agents-on-the-web-and-privacy) | 11 | Web and mobile agents, agents misused as attackers, detecting and deterring agents, content manipulation, and privacy leakage. |
 | [Surveys and SoKs](#surveys-and-soks) | 5 | Surveys, systematizations, and literature reviews of agent security. |
@@ -107,6 +107,7 @@ Every entry starts with a badge that shows **where and when** the paper appeared
 - ![USENIX Security 2026](https://img.shields.io/badge/USENIX%20Security-2026-24292f?labelColor=d1242f&style=flat-square) **[Autonomy Comes with Costs: Detecting Denial-of-Service Vulnerabilities Caused by Resource Abusing in LLM-based Agents](https://www.usenix.org/conference/usenixsecurity26/presentation/luo)**<br><sub>Jiaqi Luo, Jiarun Dai, Fengyu Liu, et al.</sub>
 - ![USENIX Security 2026](https://img.shields.io/badge/USENIX%20Security-2026-24292f?labelColor=d1242f&style=flat-square) **[MASLeak: Investigating and Exposing Intellectual Property Leakage Vulnerabilities in Multi-Agent Systems](https://www.usenix.org/conference/usenixsecurity26/presentation/wang-liwen)**<br><sub>Liwen Wang, Wenxuan Wang, Shuai Wang, et al.</sub>
 - ![USENIX Security 2026](https://img.shields.io/badge/USENIX%20Security-2026-24292f?labelColor=d1242f&style=flat-square) **[When AIOps Become "AI Oops": Subverting LLM-driven IT Operations via Telemetry Manipulation](https://www.usenix.org/conference/usenixsecurity26/presentation/pasquini)**<br><sub>Dario Pasquini, Evgenios M. Kornaropoulos, Giuseppe Ateniese, et al.</sub>
+- ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-24292f?labelColor=8b949e&style=flat-square) **[Coding Agents Propagate Vulnerabilities in Code Bases](https://arxiv.org/abs/2611.11455)**<br><sub>Chenhao Sun, Niels Mündler-Sasahara, Mark Vero, et al. &nbsp;·&nbsp; [Analysis](https://github.com/lxyeternal/paper-to-wechat/blob/main/papers/2026-11-agents-propagate-vulns/article.md)</sub>
 
 ### 2025
 
