@@ -3,8 +3,8 @@
 <p align="center">A curated, daily-updated list of research papers on the security of AI agents.</p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/papers-84-2da44e" alt="papers">
-<img src="https://img.shields.io/badge/peer--reviewed-63-d1242f" alt="peer-reviewed">
+<img src="https://img.shields.io/badge/papers-85-2da44e" alt="papers">
+<img src="https://img.shields.io/badge/peer--reviewed-64-d1242f" alt="peer-reviewed">
 <img src="https://img.shields.io/badge/benchmarks-5-8250df" alt="benchmarks">
 <img src="https://img.shields.io/badge/years-2024--2027-0969da" alt="years">
 </p>
@@ -29,7 +29,7 @@ Every entry starts with a badge that shows **where and when** the paper appeared
 | [Benchmarks](#benchmarks) | 5 | Benchmarks and datasets for evaluating agent security. |
 | [Agent Skills and Plugin Ecosystems](#agent-skills-and-plugin-ecosystems) | 11 | Malicious, vulnerable, and harmful agent skills; skill marketplaces; skill vetting and least privilege. |
 | [MCP and Tool Chains](#mcp-and-tool-chains) | 10 | Attacks and analyses on MCP servers, tool pools, third-party plugins, and agent dependencies. |
-| [Agent Applications and Frameworks](#agent-applications-and-frameworks) | 18 | Vulnerabilities in agent and LLM-integrated applications, agent frameworks, LLM app stores, and multi-agent systems. |
+| [Agent Applications and Frameworks](#agent-applications-and-frameworks) | 19 | Vulnerabilities in agent and LLM-integrated applications, agent frameworks, LLM app stores, and multi-agent systems. |
 | [Prompt Injection, Guardrails, and Permissions](#prompt-injection-guardrails-and-permissions) | 24 | Prompt injection attacks and defenses, runtime guardrails, isolation architectures, and permission models. |
 | [Agents on the Web and Privacy](#agents-on-the-web-and-privacy) | 11 | Web and mobile agents, agents misused as attackers, detecting and deterring agents, content manipulation, and privacy leakage. |
 | [Surveys and SoKs](#surveys-and-soks) | 5 | Surveys, systematizations, and literature reviews of agent security. |
@@ -93,6 +93,10 @@ Every entry starts with a badge that shows **where and when** the paper appeared
 ## Agent Applications and Frameworks
 
 > Vulnerabilities in agent and LLM-integrated applications, agent frameworks, LLM app stores, and multi-agent systems.
+
+### 2027
+
+- ![ICSE 2027](https://img.shields.io/badge/ICSE-2027-24292f?labelColor=0969da&style=flat-square) **[Automated Safety Analysis for Agentic Workflows](https://arxiv.org/abs/2611.28469)**<br><sub>Yanju Chen, Ying Li, Bosi Zhang, et al. &nbsp;·&nbsp; [Analysis](https://github.com/lxyeternal/paper-to-wechat/blob/main/papers/2026-11-apsis/article.md)</sub>
 
 ### 2026
 
